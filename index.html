@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mollalign</title>
+    <link rel="stylesheet" href="style/portfolio.css">
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.jpg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#">Services</a></li>
+                    <li><a href="#">portfolio</a></li> -->
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                 <p>Front-end Developer</p>
+                 <h1>Hi, I'm <span>Mollalign Daniel</span><br>From Ethiopia</h1>
+            </div>
+        </div>
+    </div>
+    <!--about me section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/photo_2024-08-17_02-49-34.jpg" alt="" id="logoimage">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Hi, I’m Mollalign Daniel, a 20-year-old computer science student from Halaba. I am in my third year at Hawassa University and love to learn about coding and web development. With a good understanding of HTML, CSS, and JavaScript, I have started creating exciting web applications.
+                    I have built several simple projects, like a calculator, a YouTube clone, and an Amazon-like platform, showcasing my creativity and skills. I also know how to use Git and GitHub, which helps me work well with others and manage my code.
+                    
+                    I am curious and want to try new technologies and take on challenging projects in the tech world. With my strong work ethic and love for learning, I am on my way to making a positive impact in computer science.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" data-tab="tab1"  onclick="opentab('skills')">MyProjects</p>
+                        <p id="contact" class="tab-links"             data-tab="tab2"  onclick="opentab('experience')">
+                            Contacts
+                        </p>
+                        <p class="tab-links"             data-tab="tab3"  onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" data-tab="skills">
+                        <ul class="skills-container">
+                            <li><span>
+                                Calculator</span> By using HTML,CSS,JavaScript<a href="https://molla26.github.io/project/">(project link)</a><span></span></li>
+
+                            <li><span>YouTube Clone </span>By using HTML,CSS Only<a href="https://mollalign.github.io/youTubeclone/"> (project link)</a></li>
+
+                            <li><span>AmazonClone</span> By using HTML,CSS,JavaScript<a href="https://mollalign.github.io/AmazonClone/"> (project link)</a></li>
+
+                            <li><span>My Social Links</span> By using HTML,CSS Only<a href="https://mollalign.github.io/social-links-profile/"> (project link)</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab"  data-tab="experience">
+                        <ul>
+                            <li><span>MyPhone </span>0926560362</li>
+                            <li><span>MyEmail </span>molledan69@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" data-tab="education">
+                        <ul>
+                            <li><span>Still </span>I haven't graduated.currently i'm learning computer science at hawassa University</li>
+                            <li><span>Currently</span>
+                                I'am learning Bootstrap Frame work jQuery Frmaework
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="script/script.js"></script>
+
+</body>
+</html>

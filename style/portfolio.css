@@ -18,6 +18,20 @@ body{
     width: 140px;
     height: auto; 
 }
+
+.nav-background {
+    background-color: #302e2e;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        width: 50px;
+    }
+}
+
+.button-css {
+  background-color: #cecccc;
+}
 .container{
     padding: 10px 10%;
 }

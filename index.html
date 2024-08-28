@@ -4,20 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mollalign</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/portfolio.css">
 </head>
 <body>
+<!--Bootstrap -->
 
-    <div id="header">
+    <nav class="navbar navbar-expand-md">
+
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="image/logo.jpg" class="logo"></a>
+            <button 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav"
+              class="navbar-toggler"
+              >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active text-light">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link text-light">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link text-light">Contact</a>
+                </li>
+              </ul>
+            </div>
+           </div>
+    </nav>
+
+    
+        <div class="container">
+            <div class="header-text">
+                 <p>Front-end Developer</p>
+                 <h1>Hi, I'm <span>Mollalign Daniel</span><br>From Ethiopia</h1>
+            </div>
+        </div>
+   
+
+    <!--  -->
+    <!-- <div id="header">
         <div class="container">
             <nav>
                 <img src="image/logo.jpg" class="logo">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">About</a></li> -->
                     <!-- <li><a href="#">Services</a></li>
                     <li><a href="#">portfolio</a></li> -->
-                    <li><a href="#contact">Contacts</a></li>
+                    <!-- <li><a href="#contact">Contacts</a></li>
                 </ul>
             </nav>
             <div class="header-text">
@@ -25,8 +66,11 @@
                  <h1>Hi, I'm <span>Mollalign Daniel</span><br>From Ethiopia</h1>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    
     <!--about me section-->
+
     <div id="about">
         <div class="container">
             <div class="row">
@@ -69,7 +113,7 @@
                         <ul>
                             <li><span>Still </span>I haven't graduated.currently i'm learning computer science at hawassa University</li>
                             <li><span>Currently</span>
-                                I'am learning Bootstrap Frame work jQuery Frmaework
+                                I'am learning Some Frameworks like bootstrap and react
                             </li>
                         </ul>
                     </div>
@@ -78,6 +122,7 @@
         </div>
     </div>
     
+<script src="assets/js/bootstrap.bundle.min.js"></script>    
 <script src="script/script.js"></script>
 
 </body>
